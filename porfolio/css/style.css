@@ -1,0 +1,343 @@
+body {
+    width: 1024;
+    background-image: url(../img/woodwall.png );
+}
+header {
+    min-height: 118px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    text-align: center;
+}
+nav {
+    min-height: 20px;
+}
+   /* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: rgba(3, 73, 50, 0.534);
+  font-family: Helvetica, Arial, sans-serif;
+  /*position: fixed;
+  z-index: 5;*/
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: rgba(0, 0, 0, 0.658);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgba(0, 138, 92, 0.342);
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.11);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+} 
+main {
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.cards {
+  margin-left: 85px;
+  margin-right: 85px;
+  padding-top: 10px;
+  text-align:left;
+  color: white;
+}
+h5 {
+  font-size: 25px;
+  font-family: Helvetica, Arial, sans-serif; 
+  margin-top: 25px;
+  margin-left: 85px;
+  margin-right: 85px;
+  color: white;
+}
+h1 {
+  font-size: 50px;
+  font-family: Helvetica, Arial, sans-serif; 
+  margin-top: 25px;
+  margin-left: 85px;
+  margin-right: 85px;
+  color: white;
+}
+.container-video {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+iframe {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 15px;
+  margin-bottom: 15x;
+}
+.container img {
+  float: right;
+  min-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  min-height:auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.gallery{
+  display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  flex-wrap: wrap;
+  text-align: justify;
+  color: white;
+}
+.gallery2 {
+display: flex;
+margin-right: 20px;
+margin-left: 20px;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 10px;
+flex-wrap: wrap;
+text-align: justify;
+color: white;
+}
+.box{
+  display: flex;
+  margin: 1em;
+  padding: 1em;
+  flex-direction: column;
+  padding: 10px;
+  padding-top: initial;
+  padding-bottom: initial;
+}
+h4 {
+  font-size: 20px;
+  font-family: Helvetica, arial, sans-serif;
+  font-style: bold;
+}
+a {
+  color: red;
+  text-decoration: none; 
+}
+a:link {
+  color:rgba(0, 0, 0, 0.658);
+}
+a:visited {
+  color:rgba(0, 0, 0, 0.658);
+}
+a:hover {
+  color: white;
+}
+a:active {
+  color: teal ; 
+}
+ /* Style all font awesome icons */
+
+ /* Style all font awesome icons */
+  /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+.icon-bar a:hover {
+  background-color: #000;
+}
+ /* Style inputs with type="text", select elements and textareas */
+ input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 6px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 3px; /* Add a top margin */
+  margin-bottom: 6px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: red;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  /*background-color: #f2f2f2;*/
+  padding: 20px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 40px;
+} 
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container {
+  max-width: 1024;
+  margin: auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #24262b;
+  padding: 70px 0;
+} 
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before{
+  content:"";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+}
+.footer-col ul li :not(last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: white;
+  text-decoration: none;
+  font-weight: 300;
+  color: #dddddd;
+  display: block;
+  transform: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: white;
+  padding-left: 8px;
+}
+.footer-col .socal-link a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-right: 0 10px 0 10px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: white;
+  transform: all 0.5s ease;
+}
+.footer-col .socal-link a:hover {
+  color: #24262b;
+  background-color: white;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col {
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col {
+    width: 100%
+}
+}
+.copy {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
